@@ -2,6 +2,7 @@ import ContainerLayout from "../elements/ContainerLayout";
 import Navbar from "../navbar/Navbar";
 import Img from "../image/Img";
 import MainLayout from "../elements/MainLayout";
+import Footer from "../Footer/footer";
 
 export default function Layout() {
   return (
@@ -9,50 +10,24 @@ export default function Layout() {
       <Navbar />
       <MainLayout>
         <MainLayout.Wrapper>
-          <h1 className="title">Creando mi primer hook de React</h1>
+          <h1 className="title">Personalized Academic Support Chatbot</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            quam perferendis minus recusandae odit ipsa amet itaque aut
-            architecto enim praesentium quae, temporibus alias inventore
-            incidunt est repellat exercitationem tempora.
+            How it works ?  <br/>
+            Upload the documents and click ok, AI does the rest
+
+          
           </p>
 
-          <Img
+          {/* <Img
             src="https://via.placeholder.com/600x300"
             title="Ejemplo de una imagen grande"
-          />
+          /> */}
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            quam perferendis minus recusandae odit ipsa amet itaque aut
-            architecto enim praesentium quae, temporibus alias inventore
-            incidunt est repellat exercitationem tempora.
-          </p>
+          
+          
 
-          <Img
-            src="https://via.placeholder.com/600x300"
-            title="Ejemplo de una imagen grande"
-          />
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            quam perferendis minus recusandae odit ipsa amet itaque aut
-            architecto enim praesentium quae, temporibus alias inventore
-            incidunt est repellat exercitationem tempora.
-          </p>
-
-          <Img
-            src="https://via.placeholder.com/600x300"
-            title="Ejemplo de una imagen grande"
-          />
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            quam perferendis minus recusandae odit ipsa amet itaque aut
-            architecto enim praesentium quae, temporibus alias inventore
-            incidunt est repellat exercitationem tempora.
-          </p>
         </MainLayout.Wrapper>
+        <Footer/>
       </MainLayout>
     </ContainerLayout>
   );

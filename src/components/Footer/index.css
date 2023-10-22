@@ -1,0 +1,38 @@
+/* Custom CSS for the box shadow and maximum width */
+.custom-box {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the box on the page */
+  }
+
+  .input-style {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    border-radius: 0.25rem;
+  }
+  
+  /* Style for the button element */
+  .button-style {
+    background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 4px; /* Add a top margin of 4px */
+  }
+  
+  .button-style:hover {
+    background-color: #0056b3;
+    
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
